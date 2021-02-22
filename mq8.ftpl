@@ -1,0 +1,478 @@
+>>>START of original comments, this file was converted from old format
+#complexI monaquinone
+#charges are taken from MD file
+#connectivity-----------
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn ires conn
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+#1.Basic Conformer Information: name, pka, em, rxn.
+#23456789A123456789B123456789C123456789D123456789E123456789F123456789G123456789H123456789I
+<<<END of original comments
+
+# Values of the same key are appended and separated by ","
+CONFLIST, MQ8: MQ8BK, MQ801, MQ8H2
+
+# Atom definition
+CONNECT, " C14", MQ8BK: sp2, " C13", " C15", " C16"
+CONNECT, " C15", MQ8BK: sp3, " C14", " H11", " H12", " H13"
+CONNECT, " C16", MQ8BK: sp3, " C14", " C17", " H14", " H15"
+CONNECT, " C17", MQ8BK: sp3, " C16", " C18", " H16", " H17"
+CONNECT, " C18", MQ8BK: sp2, " C17", " C19", " H18"
+CONNECT, " C19", MQ8BK: sp2, " C18", " C20", " C21"
+CONNECT, " C20", MQ8BK: sp3, " C19", " H19", " H20", " H21"
+CONNECT, " C21", MQ8BK: sp3, " C19", " C22", " H22", " H23"
+CONNECT, " C22", MQ8BK: sp3, " C21", " C23", " H24", " H25"
+CONNECT, " C23", MQ8BK: sp2, " C22", " C24", " H26"
+CONNECT, " C24", MQ8BK: sp2, " C23", " C25", " C26"
+CONNECT, " C25", MQ8BK: sp3, " C24", " H27", " H28", " H29"
+CONNECT, " C26", MQ8BK: sp3, " C24", " C27", " H30", " H31"
+CONNECT, " C27", MQ8BK: sp3, " C26", " C28", " H32", " H33"
+CONNECT, " C28", MQ8BK: sp2, " C27", " C29", " H34"
+CONNECT, " C29", MQ8BK: sp2, " C28", " C30", " C31"
+CONNECT, " C30", MQ8BK: sp3, " C29", " H35", " H36", " H37"
+CONNECT, " C31", MQ8BK: sp3, " C29", " C32", " H38", " H39"
+CONNECT, " C32", MQ8BK: sp3, " C31", " C33", " H40", " H41"
+CONNECT, " C33", MQ8BK: sp2, " C32", " C34", " H42"
+CONNECT, " C34", MQ8BK: sp2, " C33", " C35", " C36"
+CONNECT, " C35", MQ8BK: sp3, " C34", " H43", " H44", " H45"
+CONNECT, " C36", MQ8BK: sp3, " C34", " C37", " H46", " H47"
+CONNECT, " C37", MQ8BK: sp3, " C36", " C38", " H48", " H49"
+CONNECT, " C38", MQ8BK: sp2, " C37", " C39", " H50"
+CONNECT, " C39", MQ8BK: sp2, " C38", " C40", " C41"
+CONNECT, " C40", MQ8BK: sp3, " C39", " H51", " H52", " H53"
+CONNECT, " C41", MQ8BK: sp3, " C39", " C42", " H54", " H55"
+CONNECT, " C42", MQ8BK: sp3, " C41", " C43", " H56", " H57"
+CONNECT, " C43", MQ8BK: sp2, " C42", " C44", " H58"
+CONNECT, " C44", MQ8BK: sp2, " C43", " C45", " C46"
+CONNECT, " C45", MQ8BK: sp3, " C44", " C47", " H59", " H60"
+CONNECT, " C46", MQ8BK: sp3, " C44", " H61", " H62", " H63"
+CONNECT, " C47", MQ8BK: sp3, " C45", " C48", " H64", " H65"
+CONNECT, " C48", MQ8BK: sp2, " C47", " C49", " H66"
+CONNECT, " C49", MQ8BK: sp2, " C48", " C50", " C51"
+CONNECT, " C50", MQ8BK: sp3, " C49", " H67", " H68", " H69"
+CONNECT, " C51", MQ8BK: sp3, " C49", " H70", " H71", " H72"
+CONNECT, " H11", MQ8BK: s, " C15"
+CONNECT, " H12", MQ8BK: s, " C15"
+CONNECT, " H13", MQ8BK: s, " C15"
+CONNECT, " H14", MQ8BK: s, " C16"
+CONNECT, " H15", MQ8BK: s, " C16"
+CONNECT, " H16", MQ8BK: s, " C17"
+CONNECT, " H17", MQ8BK: s, " C17"
+CONNECT, " H18", MQ8BK: s, " C18"
+CONNECT, " H19", MQ8BK: s, " C20"
+CONNECT, " H20", MQ8BK: s, " C20"
+CONNECT, " H21", MQ8BK: s, " C20"
+CONNECT, " H22", MQ8BK: s, " C21"
+CONNECT, " H23", MQ8BK: s, " C21"
+CONNECT, " H24", MQ8BK: s, " C22"
+CONNECT, " H25", MQ8BK: s, " C22"
+CONNECT, " H26", MQ8BK: s, " C23"
+CONNECT, " H27", MQ8BK: s, " C25"
+CONNECT, " H28", MQ8BK: s, " C25"
+CONNECT, " H29", MQ8BK: s, " C25"
+CONNECT, " H30", MQ8BK: s, " C26"
+CONNECT, " H31", MQ8BK: s, " C26"
+CONNECT, " H32", MQ8BK: s, " C27"
+CONNECT, " H33", MQ8BK: s, " C27"
+CONNECT, " H34", MQ8BK: s, " C28"
+CONNECT, " H35", MQ8BK: s, " C30"
+CONNECT, " H36", MQ8BK: s, " C30"
+CONNECT, " H37", MQ8BK: s, " C30"
+CONNECT, " H38", MQ8BK: s, " C31"
+CONNECT, " H39", MQ8BK: s, " C31"
+CONNECT, " H40", MQ8BK: s, " C32"
+CONNECT, " H41", MQ8BK: s, " C32"
+CONNECT, " H42", MQ8BK: s, " C33"
+CONNECT, " H43", MQ8BK: s, " C35"
+CONNECT, " H44", MQ8BK: s, " C35"
+CONNECT, " H45", MQ8BK: s, " C35"
+CONNECT, " H46", MQ8BK: s, " C36"
+CONNECT, " H47", MQ8BK: s, " C36"
+CONNECT, " H48", MQ8BK: s, " C37"
+CONNECT, " H49", MQ8BK: s, " C37"
+CONNECT, " H50", MQ8BK: s, " C38"
+CONNECT, " H51", MQ8BK: s, " C40"
+CONNECT, " H52", MQ8BK: s, " C40"
+CONNECT, " H53", MQ8BK: s, " C40"
+CONNECT, " H54", MQ8BK: s, " C41"
+CONNECT, " H55", MQ8BK: s, " C41"
+CONNECT, " H56", MQ8BK: s, " C42"
+CONNECT, " H57", MQ8BK: s, " C42"
+CONNECT, " H58", MQ8BK: s, " C43"
+CONNECT, " H59", MQ8BK: s, " C45"
+CONNECT, " H60", MQ8BK: s, " C45"
+CONNECT, " H61", MQ8BK: s, " C46"
+CONNECT, " H62", MQ8BK: s, " C46"
+CONNECT, " H63", MQ8BK: s, " C46"
+CONNECT, " H64", MQ8BK: s, " C47"
+CONNECT, " H65", MQ8BK: s, " C47"
+CONNECT, " H66", MQ8BK: s, " C48"
+CONNECT, " H67", MQ8BK: s, " C50"
+CONNECT, " H68", MQ8BK: s, " C50"
+CONNECT, " H69", MQ8BK: s, " C50"
+CONNECT, " H70", MQ8BK: s, " C51"
+CONNECT, " H71", MQ8BK: s, " C51"
+CONNECT, " H72", MQ8BK: s, " C51"
+CONNECT, " C1 ", MQ801: sp2, " O1 ", " C2 ", " C11"
+CONNECT, " O1 ", MQ801: s, " C1 "
+CONNECT, " C2 ", MQ801: sp2, " C1 ", " C3 ", " C4 "
+CONNECT, " C3 ", MQ801: sp3, " C2 ", " H1 ", " H2 ", " H3 "
+CONNECT, " C4 ", MQ801: sp2, " C2 ", " C5 ", " C12"
+CONNECT, " C5 ", MQ801: sp2, " C4 ", " O2 ", " C6 "
+CONNECT, " O2 ", MQ801: sp2, " C5 "
+CONNECT, " C6 ", MQ801: sp2, " C5 ", " C7 ", " C11"
+CONNECT, " C7 ", MQ801: sp2, " C6 ", " C8 ", " H4 "
+CONNECT, " C8 ", MQ801: sp2, " C7 ", " C9 ", " H5 "
+CONNECT, " C9 ", MQ801: sp2, " C8 ", " C10", " H6 "
+CONNECT, " C10", MQ801: sp2, " C9 ", " C11", " H7 "
+CONNECT, " C11", MQ801: sp2, " C1 ", " C6 ", " C10"
+CONNECT, " C12", MQ801: sp3, " C4 ", " C13", " H8 ", " H9 "
+CONNECT, " C13", MQ801: sp2, " C12", " C14", " H10"
+CONNECT, " H1 ", MQ801: s, " C3 "
+CONNECT, " H2 ", MQ801: s, " C3 "
+CONNECT, " H3 ", MQ801: s, " C3 "
+CONNECT, " H4 ", MQ801: s, " C7 "
+CONNECT, " H5 ", MQ801: s, " C8 "
+CONNECT, " H6 ", MQ801: s, " C9 "
+CONNECT, " H7 ", MQ801: s, " C10"
+CONNECT, " H8 ", MQ801: s, " C12"
+CONNECT, " H9 ", MQ801: s, " C12"
+CONNECT, " H10", MQ801: s, " C13"
+CONNECT, " C1 ", MQ8H2: sp2, " O1 ", " C2 ", " C11"
+CONNECT, " O1 ", MQ8H2: sp3, " C1 ", " H73"
+CONNECT, " C2 ", MQ8H2: sp2, " C1 ", " C3 ", " C4 "
+CONNECT, " C3 ", MQ8H2: sp3, " C2 ", " H1 ", " H2 ", " H3 "
+CONNECT, " C4 ", MQ8H2: sp2, " C2 ", " C5 ", " C12"
+CONNECT, " C5 ", MQ8H2: sp2, " C4 ", " O2 ", " C6 "
+CONNECT, " O2 ", MQ8H2: sp3, " C5 ", " H74"
+CONNECT, " C6 ", MQ8H2: sp2, " C5 ", " C7 ", " C11"
+CONNECT, " C7 ", MQ8H2: sp2, " C6 ", " C8 ", " H4 "
+CONNECT, " C8 ", MQ8H2: sp2, " C7 ", " C9 ", " H5 "
+CONNECT, " C9 ", MQ8H2: sp2, " C8 ", " C10", " H6 "
+CONNECT, " C10", MQ8H2: sp2, " C9 ", " C11", " H7 "
+CONNECT, " C11", MQ8H2: sp2, " C1 ", " C6 ", " C10"
+CONNECT, " C12", MQ8H2: sp3, " C4 ", " C13", " H8 ", " H9 "
+CONNECT, " C13", MQ8H2: sp2, " C12", " C14", " H10"
+CONNECT, " H1 ", MQ8H2: s, " C3 "
+CONNECT, " H2 ", MQ8H2: s, " C3 "
+CONNECT, " H3 ", MQ8H2: s, " C3 "
+CONNECT, " H4 ", MQ8H2: s, " C7 "
+CONNECT, " H5 ", MQ8H2: s, " C8 "
+CONNECT, " H6 ", MQ8H2: s, " C9 "
+CONNECT, " H7 ", MQ8H2: s, " C10"
+CONNECT, " H8 ", MQ8H2: s, " C12"
+CONNECT, " H9 ", MQ8H2: s, " C12"
+CONNECT, " H10", MQ8H2: s, " C13"
+CONNECT, " H73", MQ8H2: sp2, " O1 "
+CONNECT, " H74", MQ8H2: sp2, " O2 "
+
+# Atom charges
+CHARGE, MQ8BK, " C14":  0.000
+CHARGE, MQ8BK, " C15":  0.000
+CHARGE, MQ8BK, " C16":  0.000
+CHARGE, MQ8BK, " C17":  0.000
+CHARGE, MQ8BK, " C18":  0.000
+CHARGE, MQ8BK, " C19":  0.000
+CHARGE, MQ8BK, " C20":  0.000
+CHARGE, MQ8BK, " C21":  0.000
+CHARGE, MQ8BK, " C22":  0.000
+CHARGE, MQ8BK, " C23":  0.000
+CHARGE, MQ8BK, " C24":  0.000
+CHARGE, MQ8BK, " C25":  0.000
+CHARGE, MQ8BK, " C26":  0.000
+CHARGE, MQ8BK, " C27":  0.000
+CHARGE, MQ8BK, " C28":  0.000
+CHARGE, MQ8BK, " C29":  0.000
+CHARGE, MQ8BK, " C30":  0.000
+CHARGE, MQ8BK, " C31":  0.000
+CHARGE, MQ8BK, " C32":  0.000
+CHARGE, MQ8BK, " C33":  0.000
+CHARGE, MQ8BK, " C34":  0.000
+CHARGE, MQ8BK, " C35":  0.000
+CHARGE, MQ8BK, " C36":  0.000
+CHARGE, MQ8BK, " C37":  0.000
+CHARGE, MQ8BK, " C38":  0.000
+CHARGE, MQ8BK, " C39":  0.000
+CHARGE, MQ8BK, " C40":  0.000
+CHARGE, MQ8BK, " C41":  0.000
+CHARGE, MQ8BK, " C42":  0.000
+CHARGE, MQ8BK, " C43":  0.000
+CHARGE, MQ8BK, " C44":  0.000
+CHARGE, MQ8BK, " C45":  0.000
+CHARGE, MQ8BK, " C46":  0.000
+CHARGE, MQ8BK, " C47":  0.000
+CHARGE, MQ8BK, " C48":  0.000
+CHARGE, MQ8BK, " C49":  0.000
+CHARGE, MQ8BK, " C50":  0.000
+CHARGE, MQ8BK, " C51":  0.000
+CHARGE, MQ8BK, " H11":  0.000
+CHARGE, MQ8BK, " H12":  0.000
+CHARGE, MQ8BK, " H13":  0.000
+CHARGE, MQ8BK, " H14":  0.000
+CHARGE, MQ8BK, " H15":  0.000
+CHARGE, MQ8BK, " H16":  0.000
+CHARGE, MQ8BK, " H17":  0.000
+CHARGE, MQ8BK, " H18":  0.000
+CHARGE, MQ8BK, " H19":  0.000
+CHARGE, MQ8BK, " H20":  0.000
+CHARGE, MQ8BK, " H21":  0.000
+CHARGE, MQ8BK, " H22":  0.000
+CHARGE, MQ8BK, " H23":  0.000
+CHARGE, MQ8BK, " H24":  0.000
+CHARGE, MQ8BK, " H25":  0.000
+CHARGE, MQ8BK, " H26":  0.000
+CHARGE, MQ8BK, " H27":  0.000
+CHARGE, MQ8BK, " H28":  0.000
+CHARGE, MQ8BK, " H29":  0.000
+CHARGE, MQ8BK, " H30":  0.000
+CHARGE, MQ8BK, " H31":  0.000
+CHARGE, MQ8BK, " H32":  0.000
+CHARGE, MQ8BK, " H33":  0.000
+CHARGE, MQ8BK, " H34":  0.000
+CHARGE, MQ8BK, " H35":  0.000
+CHARGE, MQ8BK, " H36":  0.000
+CHARGE, MQ8BK, " H37":  0.000
+CHARGE, MQ8BK, " H38":  0.000
+CHARGE, MQ8BK, " H39":  0.000
+CHARGE, MQ8BK, " H40":  0.000
+CHARGE, MQ8BK, " H41":  0.000
+CHARGE, MQ8BK, " H42":  0.000
+CHARGE, MQ8BK, " H43":  0.000
+CHARGE, MQ8BK, " H44":  0.000
+CHARGE, MQ8BK, " H45":  0.000
+CHARGE, MQ8BK, " H46":  0.000
+CHARGE, MQ8BK, " H47":  0.000
+CHARGE, MQ8BK, " H48":  0.000
+CHARGE, MQ8BK, " H49":  0.000
+CHARGE, MQ8BK, " H50":  0.000
+CHARGE, MQ8BK, " H51":  0.000
+CHARGE, MQ8BK, " H52":  0.000
+CHARGE, MQ8BK, " H53":  0.000
+CHARGE, MQ8BK, " H54":  0.000
+CHARGE, MQ8BK, " H55":  0.000
+CHARGE, MQ8BK, " H56":  0.000
+CHARGE, MQ8BK, " H57":  0.000
+CHARGE, MQ8BK, " H58":  0.000
+CHARGE, MQ8BK, " H59":  0.000
+CHARGE, MQ8BK, " H60":  0.000
+CHARGE, MQ8BK, " H61":  0.000
+CHARGE, MQ8BK, " H62":  0.000
+CHARGE, MQ8BK, " H63":  0.000
+CHARGE, MQ8BK, " H64":  0.000
+CHARGE, MQ8BK, " H65":  0.000
+CHARGE, MQ8BK, " H66":  0.000
+CHARGE, MQ8BK, " H67":  0.000
+CHARGE, MQ8BK, " H68":  0.000
+CHARGE, MQ8BK, " H69":  0.000
+CHARGE, MQ8BK, " H70":  0.000
+CHARGE, MQ8BK, " H71":  0.000
+CHARGE, MQ8BK, " H72":  0.000
+CHARGE, MQ801, " C1 ":  0.369
+CHARGE, MQ801, " O1 ": -0.446
+CHARGE, MQ801, " C2 ":  0.115
+CHARGE, MQ801, " C3 ": -0.310
+CHARGE, MQ801, " C4 ":  0.184
+CHARGE, MQ801, " C5 ":  0.371
+CHARGE, MQ801, " O2 ": -0.446
+CHARGE, MQ801, " C6 ":  0.000
+CHARGE, MQ801, " C7 ": -0.116
+CHARGE, MQ801, " C8 ": -0.114
+CHARGE, MQ801, " C9 ": -0.114
+CHARGE, MQ801, " C10": -0.116
+CHARGE, MQ801, " C11":  0.000
+CHARGE, MQ801, " C12": -0.217
+CHARGE, MQ801, " C13": -0.216
+CHARGE, MQ801, " H1 ":  0.090
+CHARGE, MQ801, " H2 ":  0.090
+CHARGE, MQ801, " H3 ":  0.090
+CHARGE, MQ801, " H4 ":  0.114
+CHARGE, MQ801, " H5 ":  0.114
+CHARGE, MQ801, " H6 ":  0.114
+CHARGE, MQ801, " H7 ":  0.114
+CHARGE, MQ801, " H8 ":  0.090
+CHARGE, MQ801, " H9 ":  0.090
+CHARGE, MQ801, " H10":  0.150
+CHARGE, MQ8H2, " C1 ":  0.113
+CHARGE, MQ8H2, " O1 ": -0.529
+CHARGE, MQ8H2, " C2 ": -0.006
+CHARGE, MQ8H2, " C3 ": -0.268
+CHARGE, MQ8H2, " C4 ": -0.009
+CHARGE, MQ8H2, " C5 ":  0.104
+CHARGE, MQ8H2, " O2 ": -0.529
+CHARGE, MQ8H2, " C6 ":  0.008
+CHARGE, MQ8H2, " C7 ": -0.113
+CHARGE, MQ8H2, " C8 ": -0.116
+CHARGE, MQ8H2, " C9 ": -0.116
+CHARGE, MQ8H2, " C10": -0.113
+CHARGE, MQ8H2, " C11":  0.002
+CHARGE, MQ8H2, " C12": -0.179
+CHARGE, MQ8H2, " C13": -0.145
+CHARGE, MQ8H2, " H1 ":  0.090
+CHARGE, MQ8H2, " H2 ":  0.090
+CHARGE, MQ8H2, " H3 ":  0.090
+CHARGE, MQ8H2, " H4 ":  0.114
+CHARGE, MQ8H2, " H5 ":  0.114
+CHARGE, MQ8H2, " H6 ":  0.114
+CHARGE, MQ8H2, " H7 ":  0.114
+CHARGE, MQ8H2, " H8 ":  0.090
+CHARGE, MQ8H2, " H9 ":  0.090
+CHARGE, MQ8H2, " H10":  0.150
+CHARGE, MQ8H2, " H73":  0.420
+CHARGE, MQ8H2, " H74":  0.420
+
+# Atom radius, dielectric boundary radius, VDW radius, and energy well depth
+RADIUS,  MQ8BK,  " C14": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C15": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C16": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C17": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C18": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C19": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C20": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C21": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C22": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C23": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C24": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C25": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C26": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C27": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C28": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C29": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C30": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C31": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C32": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C33": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C34": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C35": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C36": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C37": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C38": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C39": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C40": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C41": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C42": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C43": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C44": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C45": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C46": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C47": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C48": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C49": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C50": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " C51": 1.700,   2.000,   0.150
+RADIUS,  MQ8BK,  " H11": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H12": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H13": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H14": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H15": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H16": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H17": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H18": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H19": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H20": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H21": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H22": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H23": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H24": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H25": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H26": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H27": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H28": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H29": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H30": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H31": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H32": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H33": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H34": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H35": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H36": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H37": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H38": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H39": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H40": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H41": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H42": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H43": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H44": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H45": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H46": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H47": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H48": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H49": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H50": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H51": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H52": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H53": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H54": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H55": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H56": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H57": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H58": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H59": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H60": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H61": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H62": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H63": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H64": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H65": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H66": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H67": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H68": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H69": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H70": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H71": 1.000,   1.000,   0.020
+RADIUS,  MQ8BK,  " H72": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " C1 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " O1 ": 1.400,   1.600,   0.200
+RADIUS,  MQ801,  " C2 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C3 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C4 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C5 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " O2 ": 1.400,   1.600,   0.200
+RADIUS,  MQ801,  " C6 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C7 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C8 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C9 ": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C10": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C11": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C12": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " C13": 1.700,   2.000,   0.150
+RADIUS,  MQ801,  " H1 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H2 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H3 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H4 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H5 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H6 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H7 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H8 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H9 ": 1.000,   1.000,   0.020
+RADIUS,  MQ801,  " H10": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " C1 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " O1 ": 1.400,   1.600,   0.200
+RADIUS,  MQ8H2,  " C2 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C3 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C4 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C5 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " O2 ": 1.400,   1.600,   0.200
+RADIUS,  MQ8H2,  " C6 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C7 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C8 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C9 ": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C10": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C11": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C12": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " C13": 1.700,   2.000,   0.150
+RADIUS,  MQ8H2,  " H1 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H2 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H3 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H4 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H5 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H6 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H7 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H8 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H9 ": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H10": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H73": 1.000,   1.000,   0.020
+RADIUS,  MQ8H2,  " H74": 1.000,   1.000,   0.020
+
+# Conformer parameters that appear in head3.lst: ne, Em0, nH, pKa0, rxn
+CONFORMER, MQ801: Em0=   0.0, pKa0=  0.00, ne= 0, nH= 0,rxn02= -8.039, rxn04= -3.801, rxn08= -1.708 
+CONFORMER, MQ8H2: Em0=   0.0, pKa0=  9.16, ne= 2, nH= 2,rxn02= -14.850, rxn04= -7.017, rxn08= -3.154
