@@ -1,5 +1,7 @@
 >>>START of original comments, this file was converted from old format
-#complexI monaquinone
+#complexI menaquinone
+# created by Umesh
+# charge for tail is zero and given backbone name here
 #charges are taken from MD file
 #connectivity-----------
 #ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn ires conn
